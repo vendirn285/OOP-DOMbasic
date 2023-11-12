@@ -1,0 +1,50 @@
+.bg-register {
+  background-image: url(./assets/Homework\ -\ Basic\ Javascript.png);
+  background-size: cover;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8e8e8e;
+}
+
+.tablinks {
+  float: right;
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tablinks:hover {
+  background-color: #ddd;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 75%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
